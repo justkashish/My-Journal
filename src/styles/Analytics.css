@@ -1,0 +1,69 @@
+.analytics-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.analytics-container h1 {
+    color: #4a6fa5;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.no-data {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+}
+
+.no-data p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.analytics-summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.summary-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.summary-card h3 {
+    color: #4a6fa5;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.summary-value {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.analytics-charts {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.chart-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .analytics-summary {
+        grid-template-columns: 1fr;
+    }
+}
